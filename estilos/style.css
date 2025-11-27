@@ -25,7 +25,39 @@ section#telefone{
     left: 50%;
     transform: translate(-50%, -50%);
     height:750px;
-    width: 365px;
+    width: 368px;
     background: url(../imagens/frame-iphone17.png) no-repeat;
     
+}
+
+iframe#tela{
+    position: relative;
+    top: 10px;
+    left: 16px;
+    width: 335px;
+    height: 731px;
+    border-radius: 3.5rem;
+}
+
+section#redes-sociais{
+    text-align: right;
+    padding-top: 25vh;
+    padding-right: 15px;
+}
+
+section#redes-sociais img{
+    width: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box; /* borda faz parte da caixa */
+    
+   
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.582);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.712);
+    transition: transform 0.3s, border .3s;
 }
